@@ -9,6 +9,7 @@ object ComponentStyles : StyleSheet("ComponentStyles", isStatic = true) {
         // Note the type safety here applied to colours and dimensions
         backgroundColor = Color.black
         height = 80.px
+        // The type safety here isn't quite as good, could have separate top, bottom &c padding
         padding = 1.px.toString()
         color = Color.white
         textAlign = TextAlign.center
